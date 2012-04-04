@@ -107,9 +107,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Levels\LevelBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Game.cs" />
+    <Compile Include="GameElements\GameWorld.cs" />
+    <Compile Include="Sprites\Blocks\StaticBlock.cs" />
     <Compile Include="Sprites\SpriteBase.cs" />
   </ItemGroup>
   <ItemGroup>

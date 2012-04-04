@@ -1,0 +1,7 @@
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\XNA-Game.exe
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\XNA-Game.pdb
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\XNA-Game.csprojResolveAssemblyReference.cache
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\XNA-Game.exe
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\XNA-Game.pdb
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Images\circle.xnb
