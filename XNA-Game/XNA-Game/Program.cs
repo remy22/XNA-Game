@@ -1,6 +1,6 @@
 using System;
 
-namespace XNA_Game
+namespace XNA_Game.GameWorld
 {
 #if WINDOWS || XBOX
     static class Program
@@ -10,7 +10,7 @@ namespace XNA_Game
         /// </summary>
         static void Main(string[] args)
         {
-            using (Game game = new Game())
+            using (GameWorld game = new GameWorld())
             {
                 game.Run();
             }

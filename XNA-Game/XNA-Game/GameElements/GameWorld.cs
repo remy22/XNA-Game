@@ -9,20 +9,32 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
-namespace XNA_Game
+namespace XNA_Game.GameWorld
 {
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class Game : Microsoft.Xna.Framework.Game
+    public class GameWorld : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public Game()
+        /// <summary>
+        /// This variable contains all of the images being used with the game.
+        /// Images are stored as Texture2Ds and may be called by name.
+        /// </summary>
+        private static Dictionary<string, Texture2D> images = new Dictionary<string, Texture2D>();
+
+        public GameWorld()
         {
             graphics = new GraphicsDeviceManager(this);
+            // Set the content directory
             Content.RootDirectory = "Content";
+            // Set the window size
+            graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            //Fullscreen is false for testing
+            graphics.IsFullScreen = false;
         }
 
         /// <summary>
@@ -33,9 +45,8 @@ namespace XNA_Game
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
-            base.Initialize();
+            // On game initialization, content (such as images and music) is loaded into memory
+            LoadContent();
         }
 
         /// <summary>
@@ -46,6 +57,8 @@ namespace XNA_Game
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            // Load the circle image into the images dictionary
+            images.Add("circle", Content.Load<Texture2D>("Images/circle"));
 
             // TODO: use this.Content to load your game content here
         }
@@ -81,7 +94,7 @@ namespace XNA_Game
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.White);
 
             // TODO: Add your drawing code here
 
