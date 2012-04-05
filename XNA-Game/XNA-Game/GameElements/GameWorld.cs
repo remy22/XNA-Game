@@ -26,6 +26,7 @@ namespace XNA_Game.GameWorld
         /// Images are stored as Texture2Ds and may be called by name.
         /// </summary>
         private static Dictionary<string, Texture2D> images = new Dictionary<string, Texture2D>();
+        private static List<Level> levels = new List<Level>();
 
         public GameWorld()
         {
@@ -49,7 +50,6 @@ namespace XNA_Game.GameWorld
         {
             // On game initialization, content (such as images and music) is loaded into memory
             LoadContent();
-            Level1.LoadLevel(Content.Load<string>("Levels/practiceLevel"));
         }
         /// <summary>
         /// LoadContent will be called once per game and is the place to load
@@ -60,9 +60,9 @@ namespace XNA_Game.GameWorld
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             // Load the circle image into the images dictionary
-            images.Add("circle", Content.Load<Texture2D>("Images/circle"));
-            images.Add("block", Content.Load<Texture2D>("Images/block"));
-            // TODO: use this.Content to load your game content here
+            images.Add("Circle", Content.Load<Texture2D>("Images/Circle"));
+            images.Add("Block", Content.Load<Texture2D>("Images/Block"));
+            Level level1 = new Level(Content.Load<string>("Levels/Level1"));
         }
 
         /// <summary>
@@ -98,9 +98,7 @@ namespace XNA_Game.GameWorld
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
-            //spriteBatch.Draw(images["block"], new Vector2(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / 2, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 2), null,  Color.White, 0, new Vector2(0,0), new Vector2(2,2), SpriteEffects.None, 0);
-            spriteBatch.Draw(images["block"], new Rectangle(100, 100, 100, 100), null, Color.White);
-
+            spriteBatch.Draw(images["Block"], new Rectangle(100, 100, 100, 100), null, Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
         }

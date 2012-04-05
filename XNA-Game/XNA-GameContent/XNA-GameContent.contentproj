@@ -42,24 +42,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\block.png">
-      <Name>block</Name>
+    <Compile Include="Images\Block.png">
+      <Name>Block</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\circle.png">
-      <Name>circle</Name>
+    <Compile Include="Images\Circle.png">
+      <Name>Circle</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Levels\practiceLevel.xml">
-      <Name>practiceLevel</Name>
+    <Compile Include="Levels\Level1.xml">
+      <Name>Level1</Name>
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
+      <SubType>Designer</SubType>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
