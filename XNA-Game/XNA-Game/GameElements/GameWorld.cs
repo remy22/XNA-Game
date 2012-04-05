@@ -9,6 +9,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+using XNA_Game.Levels;
+
 namespace XNA_Game.GameWorld
 {
     /// <summary>
@@ -47,8 +49,8 @@ namespace XNA_Game.GameWorld
         {
             // On game initialization, content (such as images and music) is loaded into memory
             LoadContent();
+            Level1.LoadLevel(Content.Load<string>("Levels/practiceLevel"));
         }
-
         /// <summary>
         /// LoadContent will be called once per game and is the place to load
         /// all of your content.
@@ -59,7 +61,7 @@ namespace XNA_Game.GameWorld
             spriteBatch = new SpriteBatch(GraphicsDevice);
             // Load the circle image into the images dictionary
             images.Add("circle", Content.Load<Texture2D>("Images/circle"));
-
+            images.Add("block", Content.Load<Texture2D>("Images/block"));
             // TODO: use this.Content to load your game content here
         }
 
@@ -94,10 +96,12 @@ namespace XNA_Game.GameWorld
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.White);
+            GraphicsDevice.Clear(Color.CornflowerBlue);
+            spriteBatch.Begin();
+            //spriteBatch.Draw(images["block"], new Vector2(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / 2, GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 2), null,  Color.White, 0, new Vector2(0,0), new Vector2(2,2), SpriteEffects.None, 0);
+            spriteBatch.Draw(images["block"], new Rectangle(100, 100, 100, 100), null, Color.White);
 
-            // TODO: Add your drawing code here
-
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }

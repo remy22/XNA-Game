@@ -5,3 +5,12 @@ C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General
 C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\XNA-Game.exe
 C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\XNA-Game.pdb
 C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Images\circle.xnb
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Images\circle.xnb
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\XNA-Game.exe
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\XNA-Game.pdb
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\XNA-Game.exe
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\obj\x86\Debug\XNA-Game.pdb
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Images\block.xnb
+C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Levels\practiceLevel.xnb

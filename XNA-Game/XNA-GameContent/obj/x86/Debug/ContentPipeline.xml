@@ -7,8 +7,26 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Images\circle.xnb</Output>
-      <Time>2012-02-03T13:22:34.849876-05:00</Time>
+      <Output>C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Images\circle.xnb</Output>
+      <Time>2012-04-03T22:00:00.2164288-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\block.png</Source>
+      <Name>Images\block</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Images\block.xnb</Output>
+      <Time>2012-04-05T02:24:44.4782282-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\practiceLevel.xml</Source>
+      <Name>Levels\practiceLevel</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Levels\practiceLevel.xnb</Output>
+      <Time>2012-04-05T03:14:37.2084025-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -16,39 +34,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-GameContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-GameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-GameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-GameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T12:41:18-04:00</Value>
+        <Value>2010-08-23T13:41:18-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2011-08-27T00:37:22.0998353-04:00</Value>
+        <Value>2012-02-24T00:32:10.6958419-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
