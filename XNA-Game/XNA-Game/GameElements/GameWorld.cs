@@ -112,7 +112,11 @@ namespace XNA_Game.GameElements
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            // TODO: Add your update logic here
+            foreach (SpriteBase sprite in levels[0].currentLevel)
+            {
+                sprite.MoveUp();
+                sprite.MoveLeft();
+            }
 
             base.Update(gameTime);
         }

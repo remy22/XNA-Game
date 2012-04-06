@@ -48,6 +48,8 @@ namespace XNA_Game.Levels
                 for (int row = 0; row < level.GetLength(1); row++)
                     if (level[column, row] == '0')
                         currentLevel.Add(new StaticBlock(column * 100, row * 100 - Height + Settings.screenHeight, 100, 100));
+                    else if(level[column, row] == 'X')
+                        currentLevel.Add(new PuzzleBlock(column * 100, row * 100 - Height + Settings.screenHeight, 100, 100));
         }
     }
 }

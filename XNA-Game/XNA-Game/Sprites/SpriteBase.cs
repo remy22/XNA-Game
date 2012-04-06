@@ -21,5 +21,26 @@ namespace XNA_Game.Sprites
         {
             location = new Rectangle(x, y, width, height);
         }
+
+        public void MoveUp()
+        {
+            location.Y--;
+        }
+
+        public void MoveDown()
+        {
+            location.Y++;
+        }
+
+        public void MoveLeft()
+        {
+            location.X--;
+        }
+
+        public void MoveRight()
+        {
+            location.X++;
+        }
+
     }
 }
