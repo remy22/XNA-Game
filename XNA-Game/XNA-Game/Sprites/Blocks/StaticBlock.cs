@@ -14,6 +14,7 @@ namespace XNA_Game.Sprites.Blocks
             : base(x, y, width, height)
         {
             texture = "Block";
+            color = Color.Gray;
         }
     }
 }

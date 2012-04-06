@@ -34,7 +34,7 @@ namespace XNA_Game.GameElements
         /// Contains all of the images being used with the game.
         /// Images are stored as Texture2Ds and may be called by name.
         /// </summary>
-        public static Dictionary<string, Texture2D> textures = new Dictionary<string, Texture2D>();
+        private static Dictionary<string, Texture2D> textures = new Dictionary<string, Texture2D>();
 
         /// <summary>
         /// Contains all of the levels being used with the game.
@@ -54,8 +54,10 @@ namespace XNA_Game.GameElements
             Content.RootDirectory = "Content";
 
             // Set the window size
-            graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
-            graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            Settings.screenWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            Settings.screenHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            graphics.PreferredBackBufferWidth = Settings.screenWidth;
+            graphics.PreferredBackBufferHeight = Settings.screenHeight;
 
             //Fullscreen is false for testing
             graphics.IsFullScreen = false;
@@ -123,8 +125,8 @@ namespace XNA_Game.GameElements
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.Opaque);
-            foreach(SpriteBase s in levels[0].currentLevel)
-                    spriteBatch.Draw(textures[s.texture], s.location, Color.White);
+            foreach(SpriteBase sprite in levels[0].currentLevel)
+                    spriteBatch.Draw(textures[sprite.texture], sprite.location, Color.Gray);
             spriteBatch.End();
             base.Draw(gameTime);
         }

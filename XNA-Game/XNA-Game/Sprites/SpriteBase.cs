@@ -11,6 +11,7 @@ namespace XNA_Game.Sprites
     {
         public string texture;
         public Rectangle location;
+        public Color color;
 
         public SpriteBase(int x, int y, int width, int height)
         {

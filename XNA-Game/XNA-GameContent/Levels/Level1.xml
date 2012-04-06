@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <XnaContent>
 <Asset Type="string">
-1 1 1
-11  1 111
-1111
+1            1
+1            1
+1            1
+1            1
+1            1
+1            1
+1            1
+11111111111111
 </Asset>
 </XnaContent>
