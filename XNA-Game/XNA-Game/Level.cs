@@ -46,7 +46,7 @@ namespace XNA_Game.Levels
             currentLevel = new HashSet<SpriteBase>();
             for (int column = 0; column < level.GetLength(0); column++)
                 for (int row = 0; row < level.GetLength(1); row++)
-                    if (level[column, row] == '1')
+                    if (level[column, row] == '0')
                         currentLevel.Add(new StaticBlock(column * 100, row * 100 - Height + Settings.screenHeight, 100, 100));
         }
     }

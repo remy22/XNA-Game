@@ -9,9 +9,13 @@ namespace XNA_Game.Sprites
 {
     abstract class SpriteBase
     {
-        public string texture;
-        public Rectangle location;
-        public Color color;
+        protected string texture;
+        protected Rectangle location;
+        protected Color color;
+
+        public string Texture { get { return texture; } private set { } }
+        public Rectangle Location { get { return location; } private set { } }
+        public Color Color { get { return color; } private set { } }
 
         public SpriteBase(int x, int y, int width, int height)
         {

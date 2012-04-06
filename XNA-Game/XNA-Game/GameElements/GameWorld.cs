@@ -126,7 +126,7 @@ namespace XNA_Game.GameElements
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.Opaque);
             foreach(SpriteBase sprite in levels[0].currentLevel)
-                    spriteBatch.Draw(textures[sprite.texture], sprite.location, Color.Gray);
+                    spriteBatch.Draw(textures[sprite.Texture], sprite.Location, sprite.Color);
             spriteBatch.End();
             base.Draw(gameTime);
         }
