@@ -10,6 +10,8 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
 using XNA_Game.Levels;
+using XNA_Game.Sprites;
+using XNA_Game.Sprites.Blocks;
 
 namespace XNA_Game.GameElements
 {
@@ -32,7 +34,7 @@ namespace XNA_Game.GameElements
         /// Contains all of the images being used with the game.
         /// Images are stored as Texture2Ds and may be called by name.
         /// </summary>
-        public static Dictionary<string, Texture2D> images = new Dictionary<string, Texture2D>();
+        public static Dictionary<string, Texture2D> textures = new Dictionary<string, Texture2D>();
 
         /// <summary>
         /// Contains all of the levels being used with the game.
@@ -81,11 +83,11 @@ namespace XNA_Game.GameElements
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // Load image
-            images.Add("Circle", Content.Load<Texture2D>("Images/Circle"));
-            images.Add("Block", Content.Load<Texture2D>("Images/Block"));
+            textures.Add("Circle", Content.Load<Texture2D>("Images/Circle"));
+            textures.Add("Block", Content.Load<Texture2D>("Images/Block"));
 
             // Create levels
-            Level level1 = new Level(Content.Load<string>("Levels/Level1"));
+            levels.Add(new Level(Content.Load<string>("Levels/Level1")));
         }
 
         /// <summary>
@@ -121,7 +123,8 @@ namespace XNA_Game.GameElements
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.Opaque);
-            spriteBatch.Draw(images["Block"], new Rectangle(100, 100, 100, 100), null, Color.White);
+            foreach(SpriteBase s in levels[0].currentLevel)
+                    spriteBatch.Draw(textures[s.texture], s.location, Color.White);
             spriteBatch.End();
             base.Draw(gameTime);
         }

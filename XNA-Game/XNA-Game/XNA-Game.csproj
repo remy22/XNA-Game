@@ -113,7 +113,6 @@
     <Compile Include="GameElements\GameWorld.cs" />
     <Compile Include="Sprites\Blocks\StaticBlock.cs" />
     <Compile Include="Sprites\SpriteBase.cs" />
-    <Compile Include="Sprites\Various\SkyBlock.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

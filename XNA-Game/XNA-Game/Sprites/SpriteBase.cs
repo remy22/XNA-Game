@@ -9,8 +9,12 @@ namespace XNA_Game.Sprites
 {
     abstract class SpriteBase
     {
-        public Texture2D image;
-        public Vector2 position;
-        public Vector2 relativeSize;
+        public string texture;
+        public Rectangle location;
+
+        public SpriteBase(int x, int y, int width, int height)
+        {
+            location = new Rectangle(x, y, width, height);
+        }
     }
 }

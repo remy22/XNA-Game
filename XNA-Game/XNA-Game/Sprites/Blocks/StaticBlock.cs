@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using XNA_Game.Sprites;
-using XNA_Game.GameElements;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
 
 namespace XNA_Game.Sprites.Blocks
 {
     class StaticBlock : SpriteBase
     {
-        new public static Texture2D image = GameWorld.images["Block"];
-
+        public StaticBlock(int x, int y, int width, int height)
+            : base(x, y, width, height)
+        {
+            texture = "Block";
+        }
     }
 }
