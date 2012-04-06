@@ -11,11 +11,12 @@ namespace XNA_Game.Levels
 {
     class Level
     {
-        private SpriteBase[][] level;
-        public SpriteBase[][] currentLevel;
+        private SpriteBase[,] level;
+        public SpriteBase[,] currentLevel;
 
         public Level(string file)
         {
+            level=new SpriteBase[file.Split()[1].Length, file.Split().Length - 2];
             int row=-1;
             int column=0;
             foreach (string s in file.Split())
@@ -23,13 +24,14 @@ namespace XNA_Game.Levels
                 foreach (char c in s)
                 {
                     if(c == '0')
-                    level[row][column] = new SkyBlock();
+                    level[column, row] = new SkyBlock();
                     else if (c == '1')
-                        level[row][column] = new StaticBlock();
-                    else if (c == 'X')
+                        level[column, row] = new StaticBlock();
+                    //else if (c == 'X')
 
                     column++;
                 }
+                column = 0;
                     row++;
             }
             int i = 0;
