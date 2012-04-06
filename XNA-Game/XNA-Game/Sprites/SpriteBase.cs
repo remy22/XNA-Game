@@ -12,10 +12,5 @@ namespace XNA_Game.Sprites
         public Texture2D image;
         public Vector2 position;
         public Vector2 relativeSize;
-
-        public SpriteBase()
-        {
-
-        }
     }
 }

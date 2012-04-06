@@ -5,7 +5,8 @@ using System.Text;
 
 namespace XNA_Game.Sprites.Various
 {
-    class SkyBlock
+    class SkyBlock : SpriteBase
     {
+
     }
 }

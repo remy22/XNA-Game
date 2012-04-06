@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using XNA_Game.Sprites;
 using XNA_Game.Sprites.Blocks;
+using XNA_Game.Sprites.Various;
 using Microsoft.Xna.Framework;
 
 namespace XNA_Game.Levels
@@ -22,9 +23,9 @@ namespace XNA_Game.Levels
                 foreach (char c in s)
                 {
                     if(c == '0')
-                    level[row][column] = new ;
+                    level[row][column] = new SkyBlock();
                     else if (c == '1')
-                        level[row][column] =new StaticBlock();
+                        level[row][column] = new StaticBlock();
                     else if (c == 'X')
 
                     column++;
