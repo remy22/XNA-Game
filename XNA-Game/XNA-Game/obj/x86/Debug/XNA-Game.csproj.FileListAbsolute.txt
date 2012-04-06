@@ -16,3 +16,6 @@ C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Conten
 C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Images\block.xnb
 C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Levels\Level1.xnb
 C:\Users\lizzyburl\Desktop\Stuff\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Content\Levels\Level1.xnb
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Block.xnb
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Circle.xnb
+C:\Users\Tyler Wolf Leonhardt\Desktop\My Documents\Documents\Programming\General Programming\XNA-Game\XNA-Game\XNA-Game\bin\x86\Debug\Level1.xnb

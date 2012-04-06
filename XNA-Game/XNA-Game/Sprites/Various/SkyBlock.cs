@@ -7,6 +7,5 @@ namespace XNA_Game.Sprites.Various
 {
     class SkyBlock : SpriteBase
     {
-
     }
 }

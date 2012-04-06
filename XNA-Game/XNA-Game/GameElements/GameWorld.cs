@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework.Media;
 
 using XNA_Game.Levels;
 
-namespace XNA_Game.GameWorld
+namespace XNA_Game.GameElements
 {
     /// <summary>
     /// This is the main class for the game
@@ -32,7 +32,7 @@ namespace XNA_Game.GameWorld
         /// Contains all of the images being used with the game.
         /// Images are stored as Texture2Ds and may be called by name.
         /// </summary>
-        private static Dictionary<string, Texture2D> images = new Dictionary<string, Texture2D>();
+        public static Dictionary<string, Texture2D> images = new Dictionary<string, Texture2D>();
 
         /// <summary>
         /// Contains all of the levels being used with the game.

@@ -1,6 +1,6 @@
 using System;
 
-namespace XNA_Game.GameWorld
+namespace XNA_Game.GameElements
 {
 #if WINDOWS || XBOX
     static class Program
